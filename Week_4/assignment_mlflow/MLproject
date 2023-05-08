@@ -1,0 +1,13 @@
+name: basic_mlflow
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      file_name:
+        type: str
+        default: "wine_dataset.csv"
+      
+      
+    command: "python train.py {file_name}"
