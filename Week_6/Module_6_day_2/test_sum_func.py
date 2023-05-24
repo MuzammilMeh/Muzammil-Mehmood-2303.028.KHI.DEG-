@@ -1,4 +1,4 @@
-from sum_func import add, add_positive
+from sum_func import add_positive
 # Tests
 def test_add_positive():
     assert add_positive(2, 3) == 5
